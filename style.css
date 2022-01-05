@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+    background-color: rgb(230, 207, 218);
+    
+}
+h1{
+    padding: 20px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    color: rgb(68, 137, 139);
+}
+#board{
+    display: flex;
+    width: 312px;
+    height: 312px;
+    border: 2px solid rgb(132, 132, 219);
+    flex-wrap: wrap;
+    margin: auto;
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(132, 132, 219);
+    text-align: center;
+    color: rgba(29, 186, 214, 0.541);
+    background-color: cornsilk;
+    font-size: 70px;
+    font-style: normal;
+    margin: auto;
+}
+#mess{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(75, 75, 116);
+    padding: 20px;
+}
+.btn{
+    
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    color: rgb(91, 91, 141);
+    border: 2px solid rgb(109, 121, 161);
+    border-radius: 20px;
+    font-size: 20px;
+    display: block;
+
+}

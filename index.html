@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>X-O GAME</h1>
+    
+    <div id='board'>
+        <div id='a' class='cell'> </div>
+        <div id='b' class='cell'> </div>
+        <div id='c' class='cell'> </div>
+        <div id='d' class='cell'> </div>
+        <div id='e' class='cell'> </div>
+        <div id='f' class='cell'> </div>
+        <div id='g' class='cell'> </div>
+        <div id='h' class='cell'> </div>
+        <div id='i' class='cell'> </div>
+    </div>
+    
+    <div id='mess'><b></b></div>
+    <input type="button" id='r' class='btn' value='Reset'>
+    <input type="button" id='d' class="btn" onclick="deleteStep()" value='Delete last step'>
+    <input type="button" id='t' class="btn" onclick=""  value='Show the best game'>
+    <input type="button" id='s' class="btn" onclick=""  value='Save game'>
+    <input type="button" id='l' class="btn" onclick=""  value='Upload saved game'>
+    <script src="script.js"></script>  
+
+</body>
+</html>
